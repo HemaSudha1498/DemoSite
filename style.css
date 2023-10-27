@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/Montserrat-Regular.ttf') format('truetype'); 
+}
+
 .header_div {
     display: flex;
     justify-content: space-around;
