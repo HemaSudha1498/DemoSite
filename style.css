@@ -69,7 +69,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
-    flex-direction: column;
 }
 
 .category_div {
