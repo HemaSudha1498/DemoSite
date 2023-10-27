@@ -1,6 +1,15 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('assets/Montserrat-Regular.ttf') format('truetype'); 
+    src: url('assets/Montserrat-Regular.ttf') format('truetype');
+}
+
+.logo h4 {
+    color: #0B0B23;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .header_div {
@@ -30,7 +39,6 @@
 }
 
 .dropdown_btn {
-    background-color: black;
     margin-right: 15px;
 }
 
@@ -61,6 +69,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
+    flex-direction: column;
 }
 
 .category_div {
@@ -100,7 +109,7 @@
 }
 
 .keyword_div {
-    width: 298px;
+    width: 300px;
     margin: 10px 25px;
     /* width: 360px;
     margin: 40px; */
@@ -138,4 +147,75 @@
 /* Style the scrollbar track when the thumb is being dragged */
 ::-webkit-scrollbar-thumb:active {
     background: #555;
+}
+
+.second_section {
+    display: flex;
+}
+
+.first_section {}
+
+@media (max-width: 299px) {
+    .dropdown_div {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .dropdown_partition span {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 25px;
+    }
+
+    .navBarElements span {
+        margin: 10px;
+        font-size: xx-small;
+    }
+
+    .logo h4 {
+        color: #0B0B23;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .category_div {
+        width: 150px;
+        margin: 10px 25px;
+        border-radius: 20px;
+        border: 1px solid #DDF6F0;
+        background: var(--background-white, #FFF);
+        box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+    }
+
+    .category_div img{
+        width: 150px;
+    }
+
+    .second_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keyword_div button {
+        width: 60px;
+        height: 55px;
+        border-radius: 5px;
+        border: 1px solid #12AA84;
+        background: rgba(255, 255, 255, 0.70);
+        font-size: 12px;
+    }
+
+    .keyword_div p {
+        margin: 0;
+        margin-left: 27px;
+        font-size: smaller;
+    }
+
 }
