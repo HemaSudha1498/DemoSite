@@ -1,0 +1,136 @@
+.header_div {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    place-items: center;
+}
+
+.navBarElements span {
+    margin: 10px
+}
+
+.blank_div {
+    height: 500px;
+    background: black;
+}
+
+.descriptionDiv {
+    justify-content: center;
+    display: flex;
+}
+
+.dropdown_div {
+    width: 1100px;
+    margin-top: 70px;
+}
+
+.dropdown_btn {
+    background-color: black;
+    margin-right: 15px;
+}
+
+.dropdown_partition {
+    border-radius: 5px;
+    background-color: #11B98F;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    place-items: center;
+}
+
+.dropdown_partition span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 25px;
+}
+
+.div_partition {
+    margin: 10px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.category_div {
+    width: 298px;
+    margin: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #DDF6F0;
+    background: var(--background-white, #FFF);
+    box-shadow: 6px 6px 24px 0px rgba(28, 49, 88, 0.05);
+}
+
+.category_div h4 {
+    margin: 10px !important;
+}
+
+.category_div p {
+    margin: 10px !important;
+    max-height: 130px;
+    overflow: auto;
+}
+
+#heading_span {
+    border-bottom: 1px solid #e9e4e4;
+    width: 100%;
+    display: block;
+    height: 40px;
+}
+
+.data_div {
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid #EFF2F9;
+    background: #EAF0F6;
+}
+
+.card-body {
+    background: #EAF0F6;
+}
+
+.keyword_div {
+    width: 298px;
+    margin: 10px 25px;
+    /* width: 360px;
+    margin: 40px; */
+    display: flex;
+    place-items: center;
+}
+
+.keyword_div button {
+    width: 170px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #12AA84;
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.keyword_div p {
+    margin: 0;
+    margin-left: 27px;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 2px;
+    /* Adjust the width to your preference */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 3px;
+    /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar track when the thumb is being dragged */
+::-webkit-scrollbar-thumb:active {
+    background: #555;
+}
